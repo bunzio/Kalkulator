@@ -1,27 +1,24 @@
-import javax.swing.JFrame;
-import javax.swing.JButton;
-import java.awt.FlowLayout;
+import javax.swing.*;
+import java.awt.*;
+
 
 public class MyFrame extends JFrame {
 
-    public MyFrame() {
-        super("Kalkulator by bunzio v1.0.0");
+     MyFrame() {
+        setTitle("Kalkulator by bunzio v1.0.0");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
-        setSize(500, 780);
-        setLocation(50, 50);
-        setLayout(new FlowLayout());
+        setSize( 500, 450);
+        int width = Toolkit.getDefaultToolkit().getScreenSize().width;
+        int height = Toolkit.getDefaultToolkit().getScreenSize().height;
+        int fwidth = getSize().width;
+        int fheight = getSize().height;
+        setLocation((width-fwidth)/2,(height-fheight)/2);
 
-        add(new JButton("1"));
-        add(new JButton("2"));
-        add(new JButton("3"));
-        add(new JButton("4"));
-        add(new JButton("5"));
-        add(new JButton("6"));
-        add(new JButton("7"));
-        add(new JButton("8"));
-        add(new JButton("9"));
         setVisible(true);
+        setLayout(new FlowLayout());
+        setResizable(false);
+
 
     }
 }
