@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
 
 
 public class MyFrame extends JFrame {
@@ -20,8 +21,16 @@ public class MyFrame extends JFrame {
     private JButton bPrzecinek;
     private JButton bPlusMinus;
     private JButton bWynik;
+    private JButton bKasuj;
+    private JButton bCofnij;
+    private JButton bOnawias;
+    private JButton bZnawias;
+    private JButton bPierwiastek;
+    private JButton bXdoN;
+    private JButton bModulo;
     private JTextField oknoWynik;
     private Container kontener = this.getContentPane();
+    private ActionListener abutton0;
 
      MyFrame() {
         setTitle("Kalkulator by bunzio v1.0.0");
@@ -39,6 +48,7 @@ public class MyFrame extends JFrame {
         addToContainer();
         setBounds();
         setOknoWynik();
+        createActionListener();
 
      }
     public  void initComponents() {
@@ -61,6 +71,13 @@ public class MyFrame extends JFrame {
         bPrzecinek = new JButton(",");
         bPlusMinus = new JButton("±");
         bWynik = new JButton("=");
+        bKasuj = new JButton("C");
+        bCofnij = new JButton("⇦");
+        bOnawias = new JButton("(");
+        bZnawias = new JButton(")");
+        bPierwiastek = new JButton("√");
+        bXdoN = new JButton("X²");
+        bModulo = new JButton("%");
     }
 
     public void addToContainer() {
@@ -82,6 +99,13 @@ public class MyFrame extends JFrame {
             kontener.add(bPrzecinek);
             kontener.add(bPlusMinus);
             kontener.add(bWynik);
+            kontener.add(bKasuj);
+            kontener.add(bCofnij);
+            kontener.add(bOnawias);
+            kontener.add(bZnawias);
+            kontener.add(bXdoN);
+            kontener.add(bPierwiastek);
+            kontener.add(bModulo);
         }
 
     public void setBounds(){
@@ -98,16 +122,30 @@ public class MyFrame extends JFrame {
         button7.setBounds(5, 85, 50, 25);
         button8.setBounds(60, 85, 50, 25);
         button9.setBounds(115, 85, 50, 25);
-        bWynik.setBounds(220, 175, 50,25);
+        bWynik.setBounds(225, 175, 50,25);
         bWynik.setBackground(Color.lightGray);
-        bDodwanie.setBounds(220,145,50,25);
+        bDodwanie.setBounds(225,145,50,25);
         bDodwanie.setBackground(Color.lightGray);
-        bOdejmowanie.setBounds(220,115,50,25);
+        bOdejmowanie.setBounds(225,115,50,25);
         bOdejmowanie.setBackground(Color.lightGray);
-        bMnozenie.setBounds(220,85,50,25);
+        bMnozenie.setBounds(225,85,50,25);
         bMnozenie.setBackground(Color.lightGray);
-        bDzielenie.setBounds(220,55,50,25);
+        bDzielenie.setBounds(225,55,50,25);
         bDzielenie.setBackground(Color.lightGray);
+        bKasuj.setBounds(5,55,50,25);
+        bKasuj.setBackground(Color.lightGray);
+        bCofnij.setBounds(60,55,50,25);
+        bCofnij.setBackground(Color.lightGray);
+        bOnawias.setBounds(115,55,50,25);
+        bOnawias.setBackground(Color.lightGray);
+        bZnawias.setBounds(170,55,50,25);
+        bZnawias.setBackground(Color.lightGray);
+        bXdoN.setBounds(170,85,50,25);
+        bXdoN.setBackground(Color.lightGray);
+        bPierwiastek.setBounds(170,115,50,25);
+        bPierwiastek.setBackground(Color.lightGray);
+        bModulo.setBounds(170,145,50,25);
+        bModulo.setBackground(Color.lightGray);
 
     }
     public void setOknoWynik(){
@@ -116,6 +154,12 @@ public class MyFrame extends JFrame {
         oknoWynik.setEditable(false);
         oknoWynik.setBackground(Color.white);
     }
+
+    public void createActionListener() {
+         button0.addActionListener(abutton0);
+    }
+
+
 
 }
 
