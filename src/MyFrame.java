@@ -30,7 +30,11 @@ public class MyFrame extends JFrame {
     private JButton bModulo;
     private JTextField oknoWynik;
     private Container kontener = this.getContentPane();
-    private ActionListener abutton0;
+    private double licz;
+    private double liczba;
+    private String iText;
+    private String oText;
+    private int if0;
 
      MyFrame() {
         setTitle("Kalkulator by bunzio v1.0.0");
@@ -153,10 +157,143 @@ public class MyFrame extends JFrame {
         oknoWynik.setFont(new Font("System", Font.BOLD,20));
         oknoWynik.setEditable(false);
         oknoWynik.setBackground(Color.white);
+        oknoWynik.setText("0");
+        if0 = 0;
     }
 
     public void createActionListener() {
-         button0.addActionListener(abutton0);
+        button0.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                iText = "0";
+                if(if0 == 0) {
+                    oknoWynik.setText("0");
+                    if0 = 1;
+                }
+                else
+                    oknoWynik.setText(oText + iText);
+            }
+        });
+        button1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                iText = "1";
+                if(if0 == 0) {
+                    oknoWynik.setText("1");
+                    if0 = 1;
+                }
+                else
+                    oknoWynik.setText(oText + iText);
+            }
+        });
+        button2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                iText = "2";
+                if(if0 == 0) {
+                    oknoWynik.setText("2");
+                    if0 = 1;
+                }
+                else
+                    oknoWynik.setText(oText + iText);
+            }
+        });
+        button3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                iText = "3";
+                if(if0 == 0) {
+                    oknoWynik.setText("3");
+                    if0 = 1;
+                }
+                else
+                    oknoWynik.setText(oText + iText);
+            }
+        });
+        button4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                iText = "4";
+                if(if0 == 0) {
+                    oknoWynik.setText("4");
+                    if0 = 1;
+                }
+                else
+                    oknoWynik.setText(oText + iText);
+            }
+        });
+        button5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                iText = "5";
+                if(if0 == 0) {
+                    oknoWynik.setText("5");
+                    if0 = 1;
+                }
+                else
+                    oknoWynik.setText(oText + iText);
+            }
+        });
+        button6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                iText = "6";
+                if(if0 == 0) {
+                    oknoWynik.setText("6");
+                    if0 = 1;
+                }
+                else
+                    oknoWynik.setText(oText + iText);
+            }
+        });
+        button7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                iText = "7";
+                if(if0 == 0) {
+                    oknoWynik.setText("7");
+                    if0 = 1;
+                }
+                else
+                    oknoWynik.setText(oText + iText);
+            }
+        });
+        button8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                iText = "8";
+                if(if0 == 0) {
+                    oknoWynik.setText("8");
+                    if0 = 1;
+                }
+                else
+                    oknoWynik.setText(oText + iText);
+            }
+        });
+        button9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                iText = "9";
+                if(if0 == 0) {
+                    oknoWynik.setText("9");
+                    if0 = 1;
+                }
+                else
+                    oknoWynik.setText(oText + iText);
+            }
+        });
+        bKasuj.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oknoWynik.setText("0");
+                if0 = 0;
+            }
+        });
+        bCofnij.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oknoWynik.setText(oText);
+
+            }
+        });
     }
 
 
