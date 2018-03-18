@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="1a1c6ced-4900-4d76-a410-02f2a6d74728" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$1.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$10.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$10.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$11.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$11.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$12.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$12.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$2.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$2.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$3.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$3.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$4.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$4.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$5.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$5.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$6.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$6.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$7.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$7.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$8.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$8.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$9.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$9.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame.class" />
       <change beforePath="$PROJECT_DIR$/src/MyFrame.java" afterPath="$PROJECT_DIR$/src/MyFrame.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,17 +38,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyFrame.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1119">
-              <caret line="232" column="20" lean-forward="true" selection-start-line="232" selection-start-column="20" selection-end-line="232" selection-end-column="20" />
+            <state relative-caret-position="-476">
+              <caret line="85" column="33" lean-forward="false" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-                <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
                 <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
                 <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+                <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wynik.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Wynik.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,6 +93,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/MyFrame.java" />
+        <option value="$PROJECT_DIR$/src/Wynik.java" />
       </list>
     </option>
   </component>
@@ -77,7 +103,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="32" />
     <option name="width" value="1936" />
@@ -101,7 +127,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -137,12 +162,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Kalk-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -224,14 +250,21 @@
       <workItem from="1520802838881" duration="2645000" />
       <workItem from="1521283923788" duration="87000" />
       <workItem from="1521287653384" duration="3821000" />
+      <workItem from="1521294488462" duration="53000" />
+      <workItem from="1521294943970" duration="138000" />
+      <workItem from="1521298257869" duration="1255000" />
+      <workItem from="1521300098520" duration="2109000" />
+      <workItem from="1521303025937" duration="57000" />
+      <workItem from="1521364685131" duration="1442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33126000" />
+    <option name="totallyTimeSpent" value="38180000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="49" width="1942" height="1042" extended-state="6" />
+    <frame x="-11" y="49" width="1942" height="1042" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -241,25 +274,25 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.030963304" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.030963304" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.184375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,24 +306,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="110" column="27" lean-forward="false" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
+        <state relative-caret-position="3050">
+          <caret line="232" column="20" lean-forward="true" selection-start-line="232" selection-start-column="20" selection-end-line="232" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -310,9 +335,31 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="110" column="27" lean-forward="false" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -332,9 +379,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -354,9 +401,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -376,9 +423,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -398,9 +445,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -420,9 +467,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -442,9 +489,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -464,9 +511,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -486,9 +533,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -508,9 +555,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -530,9 +577,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -552,9 +599,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -574,9 +621,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -721,16 +768,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1119">
-          <caret line="232" column="20" lean-forward="true" selection-start-line="232" selection-start-column="20" selection-end-line="232" selection-end-column="20" />
+        <state relative-caret-position="-476">
+          <caret line="85" column="33" lean-forward="false" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wynik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -27,14 +27,13 @@ public class MyFrame extends JFrame {
     private JButton bZnawias;
     private JButton bPierwiastek;
     private JButton bXdoN;
-    private JButton bModulo;
+   // private JButton bModulo;
     private JTextField oknoWynik;
     private Container kontener = this.getContentPane();
-    private double licz;
-    private double liczba;
+    private String licz;
     private String iText;
     private String oText;
-    private int if0;
+    private int przecinek = 0;
 
      MyFrame() {
         setTitle("Kalkulator by bunzio v1.0.0");
@@ -81,7 +80,7 @@ public class MyFrame extends JFrame {
         bZnawias = new JButton(")");
         bPierwiastek = new JButton("√");
         bXdoN = new JButton("X²");
-        bModulo = new JButton("%");
+        //bModulo = new JButton("%");
     }
 
     public void addToContainer() {
@@ -109,7 +108,7 @@ public class MyFrame extends JFrame {
             kontener.add(bZnawias);
             kontener.add(bXdoN);
             kontener.add(bPierwiastek);
-            kontener.add(bModulo);
+            //kontener.add(bModulo);
         }
 
     public void setBounds(){
@@ -148,8 +147,8 @@ public class MyFrame extends JFrame {
         bXdoN.setBackground(Color.lightGray);
         bPierwiastek.setBounds(170,115,50,25);
         bPierwiastek.setBackground(Color.lightGray);
-        bModulo.setBounds(170,145,50,25);
-        bModulo.setBackground(Color.lightGray);
+        // bModulo.setBounds(170,145,50,25);
+        // bModulo.setBackground(Color.lightGray);
 
     }
     public void setOknoWynik(){
@@ -158,7 +157,8 @@ public class MyFrame extends JFrame {
         oknoWynik.setEditable(false);
         oknoWynik.setBackground(Color.white);
         oknoWynik.setText("0");
-        if0 = 0;
+        oText= "0";
+        przecinek = 0;
     }
 
     public void createActionListener() {
@@ -166,9 +166,8 @@ public class MyFrame extends JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oText = oknoWynik.getText();
                 iText = "0";
-                if(if0 == 0) {
+                if(oText.equals("0")) {
                     oknoWynik.setText("0");
-                    if0 = 1;
                 }
                 else
                     oknoWynik.setText(oText + iText);
@@ -178,9 +177,8 @@ public class MyFrame extends JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oText = oknoWynik.getText();
                 iText = "1";
-                if(if0 == 0) {
+                if(oText.equals("0")) {
                     oknoWynik.setText("1");
-                    if0 = 1;
                 }
                 else
                     oknoWynik.setText(oText + iText);
@@ -190,9 +188,8 @@ public class MyFrame extends JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oText = oknoWynik.getText();
                 iText = "2";
-                if(if0 == 0) {
+                if(oText.equals("0")) {
                     oknoWynik.setText("2");
-                    if0 = 1;
                 }
                 else
                     oknoWynik.setText(oText + iText);
@@ -202,9 +199,8 @@ public class MyFrame extends JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oText = oknoWynik.getText();
                 iText = "3";
-                if(if0 == 0) {
+                if(oText.equals("0")) {
                     oknoWynik.setText("3");
-                    if0 = 1;
                 }
                 else
                     oknoWynik.setText(oText + iText);
@@ -214,9 +210,8 @@ public class MyFrame extends JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oText = oknoWynik.getText();
                 iText = "4";
-                if(if0 == 0) {
+                if(oText.equals("0")) {
                     oknoWynik.setText("4");
-                    if0 = 1;
                 }
                 else
                     oknoWynik.setText(oText + iText);
@@ -226,9 +221,8 @@ public class MyFrame extends JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oText = oknoWynik.getText();
                 iText = "5";
-                if(if0 == 0) {
+                if(oText.equals("0")) {
                     oknoWynik.setText("5");
-                    if0 = 1;
                 }
                 else
                     oknoWynik.setText(oText + iText);
@@ -238,9 +232,8 @@ public class MyFrame extends JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oText = oknoWynik.getText();
                 iText = "6";
-                if(if0 == 0) {
+                if(oText.equals("0")) {
                     oknoWynik.setText("6");
-                    if0 = 1;
                 }
                 else
                     oknoWynik.setText(oText + iText);
@@ -250,9 +243,8 @@ public class MyFrame extends JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oText = oknoWynik.getText();
                 iText = "7";
-                if(if0 == 0) {
+                if(oText.equals("0")) {
                     oknoWynik.setText("7");
-                    if0 = 1;
                 }
                 else
                     oknoWynik.setText(oText + iText);
@@ -262,9 +254,8 @@ public class MyFrame extends JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oText = oknoWynik.getText();
                 iText = "8";
-                if(if0 == 0) {
+                if(oText.equals("0")) {
                     oknoWynik.setText("8");
-                    if0 = 1;
                 }
                 else
                     oknoWynik.setText(oText + iText);
@@ -274,9 +265,8 @@ public class MyFrame extends JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oText = oknoWynik.getText();
                 iText = "9";
-                if(if0 == 0) {
+                if(oText.equals("0")) {
                     oknoWynik.setText("9");
-                    if0 = 1;
                 }
                 else
                     oknoWynik.setText(oText + iText);
@@ -285,12 +275,161 @@ public class MyFrame extends JFrame {
         bKasuj.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oknoWynik.setText("0");
-                if0 = 0;
+                licz = "0";
+                oText = "0";
+                iText = "0";
+                przecinek = 0;
             }
         });
         bCofnij.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oknoWynik.setText(oText);
+
+            }
+        });
+        bDodwanie.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                if(oText.equals("0")){
+                    oknoWynik.setText("0");
+                }
+                else{
+                    licz = oText+"+";
+                    oknoWynik.setText(licz);
+                }
+                przecinek = 0;
+
+
+            }
+        });
+        bOdejmowanie.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                if(oText.equals("0")){
+                    oknoWynik.setText("0");
+                }
+                else{
+                    licz = oText+"-";
+                    oknoWynik.setText(licz);
+                }
+                przecinek = 0;
+
+
+            }
+        });
+        bMnozenie.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                if(oText.equals("0")){
+                    oknoWynik.setText("0");
+
+                }
+                else{
+                    licz = oText+"*";
+                    oknoWynik.setText(licz);
+                }
+                przecinek = 0;
+
+
+            }
+        });
+        bDzielenie.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                if(oText.equals("0")){
+                    oknoWynik.setText("0");
+                }
+                else{
+                    licz = oText+"÷";
+                    oknoWynik.setText(licz);
+                }
+                przecinek = 0;
+
+
+            }
+        });
+        bXdoN.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                if(oText.equals("0")){
+                    oknoWynik.setText("0");
+                }
+                else{
+                    licz = oText+"²";
+                    oknoWynik.setText(licz);
+                }
+                przecinek = 0;
+
+
+            }
+        });
+        bOnawias.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                if(oText.equals("0")){
+                    oknoWynik.setText("(");
+                    licz = oknoWynik.getText();
+                }
+                else{
+                    licz = oText+"(";
+                    oknoWynik.setText(licz);
+                }
+                przecinek = 0;
+
+
+            }
+        });
+        bZnawias.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                if(oText.equals("0")){
+                    oknoWynik.setText("0");
+                }
+                else{
+                    licz = oText+")";
+                    oknoWynik.setText(licz);
+                }
+                przecinek = 0;
+
+
+
+            }
+        });
+        bPierwiastek.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                if(oText.equals("0")){
+                    oknoWynik.setText("√(");
+                    licz = oknoWynik.getText();
+                }
+                else{
+                    licz = oText+"√(";
+                    oknoWynik.setText(licz);
+                }
+                przecinek = 0;
+
+
+
+            }
+        });
+        bPrzecinek.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                if(przecinek == 0) {
+
+                    if (oText.equals("0")) {
+                        oknoWynik.setText("0,");
+                        licz = oknoWynik.getText();
+                        przecinek = 1;
+                    } else {
+                        oText = oText + ",";
+                        oknoWynik.setText(oText);
+                        przecinek = 1;
+                    }
+                }
+
+
+
 
             }
         });
