@@ -27,7 +27,7 @@ public class MyFrame extends JFrame {
     private JButton bZnawias;
     private JButton bPierwiastek;
     private JButton bXdoN;
-   // private JButton bModulo;
+   private JButton bDo;
     private JTextField oknoWynik;
     private Container kontener = this.getContentPane();
     private String licz;
@@ -36,7 +36,7 @@ public class MyFrame extends JFrame {
     private int przecinek = 0;
 
      MyFrame() {
-        setTitle("Kalkulator by bunzio v1.0.0");
+        setTitle("Kalkulator v1.0.0");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
         setSize( 300, 250);
@@ -51,7 +51,7 @@ public class MyFrame extends JFrame {
         addToContainer();
         setBounds();
         setOknoWynik();
-        createActionListener();
+        ActionListener();
 
      }
     public  void initComponents() {
@@ -80,7 +80,7 @@ public class MyFrame extends JFrame {
         bZnawias = new JButton(")");
         bPierwiastek = new JButton("√");
         bXdoN = new JButton("X²");
-        //bModulo = new JButton("%");
+        bDo = new JButton("do");
     }
 
     public void addToContainer() {
@@ -108,7 +108,7 @@ public class MyFrame extends JFrame {
             kontener.add(bZnawias);
             kontener.add(bXdoN);
             kontener.add(bPierwiastek);
-            //kontener.add(bModulo);
+            kontener.add(bDo);
         }
 
     public void setBounds(){
@@ -145,10 +145,10 @@ public class MyFrame extends JFrame {
         bZnawias.setBackground(Color.lightGray);
         bXdoN.setBounds(170,85,50,25);
         bXdoN.setBackground(Color.lightGray);
-        bPierwiastek.setBounds(170,115,50,25);
+        bDo.setBounds(170,115,50,25);
         bPierwiastek.setBackground(Color.lightGray);
-        // bModulo.setBounds(170,145,50,25);
-        // bModulo.setBackground(Color.lightGray);
+        bPierwiastek.setBounds(170,145,50,25);
+        bDo.setBackground(Color.lightGray);
 
     }
     public void setOknoWynik(){
@@ -161,7 +161,7 @@ public class MyFrame extends JFrame {
         przecinek = 0;
     }
 
-    public void createActionListener() {
+    public void ActionListener() {
         button0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oText = oknoWynik.getText();
@@ -283,7 +283,20 @@ public class MyFrame extends JFrame {
         });
         bCofnij.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                oknoWynik.setText(oText);
+                int cofnij = oknoWynik.getText().length() - 1;
+                String nowy;
+
+                if(cofnij == 0) {
+                    oknoWynik.setText("0");
+                }
+
+                if(cofnij > 0)
+                {
+                    StringBuilder back = new StringBuilder(oknoWynik.getText());
+                    back.deleteCharAt(cofnij);
+                    nowy = back.toString();
+                    oknoWynik.setText(nowy);
+                }
 
             }
         });
@@ -352,10 +365,10 @@ public class MyFrame extends JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oText = oknoWynik.getText();
                 if(oText.equals("0")){
-                    oknoWynik.setText("0");
+                    oknoWynik.setText("poteguj(");
                 }
                 else{
-                    licz = oText+"²";
+                    licz = oText+"poteguj(";
                     oknoWynik.setText(licz);
                 }
                 przecinek = 0;
@@ -431,6 +444,51 @@ public class MyFrame extends JFrame {
 
 
 
+            }
+        });
+        bWynik.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                String dane = String.valueOf(oknoWynik.getText());
+
+                StringBuffer str1 = new StringBuffer(dane);
+                String str2 = str1.toString().replaceAll(",", ".");
+
+                StringBuffer str3 = new StringBuffer(str2);
+                String str4 = str3.toString().replaceAll("poteguj", "Math.pow");
+
+                StringBuffer str5 = new StringBuffer(str4);
+                String str6 = str5.toString().replaceAll("√", "Math.sqrt");
+
+                StringBuffer str7 = new StringBuffer(str6);
+                dane = str7.toString().replaceAll("÷", "/");
+
+                StringBuffer str10 = new StringBuffer(str7);
+                dane = str10.toString().replaceAll("do", ",");
+
+
+
+
+                try {
+                    Wynik.Wynik(dane);
+                    oknoWynik.setText(Wynik.Wynik(dane));
+                    if (Wynik.Wynik(dane).equals("Infinity"))
+                        oknoWynik.setText("Nie dziel przez 0!");
+                } catch (Exception e) {
+                    oknoWynik.setText("Błąd składni!!");
+                    e.printStackTrace();
+                }
+
+            }
+        });
+        bDo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oText = oknoWynik.getText();
+                iText = " do ";
+                if(oText.equals("0")) {
+                    oknoWynik.setText("0");
+                }
+                else
+                    oknoWynik.setText(oText + iText);
             }
         });
     }
