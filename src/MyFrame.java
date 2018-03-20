@@ -4,35 +4,13 @@ import java.awt.event.ActionListener;
 
 
 public class MyFrame extends JFrame {
-    private JButton button0;
-    private JButton button1;
-    private JButton button2;
-    private JButton button3;
-    private JButton button4;
-    private JButton button5;
-    private JButton button6;
-    private JButton button7;
-    private JButton button8;
-    private JButton button9;
-    private JButton bDodwanie;
-    private JButton bOdejmowanie;
-    private JButton bMnozenie;
-    private JButton bDzielenie;
-    private JButton bPrzecinek;
-    private JButton bPlusMinus;
-    private JButton bWynik;
-    private JButton bKasuj;
-    private JButton bCofnij;
-    private JButton bOnawias;
-    private JButton bZnawias;
-    private JButton bPierwiastek;
-    private JButton bXdoN;
-   private JButton bDo;
+    private JButton button0, button1, button2, button3, button4, button5, button6, button7, button8, button9, bDodwanie, bOdejmowanie,
+                    bMnozenie, bDzielenie, bPrzecinek, bPlusMinus, bWynik, bKasuj, bCofnij, bOnawias, bZnawias, bPierwiastek,
+                    bXdoN, bDo;
+
     private JTextField oknoWynik;
     private Container kontener = this.getContentPane();
-    private String licz;
-    private String iText;
-    private String oText;
+    private String licz, iText, oText;
     private int przecinek = 0;
 
      MyFrame() {
@@ -460,10 +438,10 @@ public class MyFrame extends JFrame {
                 String str6 = str5.toString().replaceAll("√", "Math.sqrt");
 
                 StringBuffer str7 = new StringBuffer(str6);
-                dane = str7.toString().replaceAll("÷", "/");
+                String str8 = str7.toString().replaceAll("÷", "/");
 
-                StringBuffer str10 = new StringBuffer(str7);
-                dane = str10.toString().replaceAll("do", ",");
+                StringBuffer str9 = new StringBuffer(str8);
+                dane = str9.toString().replaceAll("do", ",");
 
 
 
