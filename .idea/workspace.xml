@@ -3,29 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1a1c6ced-4900-4d76-a410-02f2a6d74728" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$10.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$11.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$12.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$13.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$14.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$15.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$16.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$17.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$18.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$19.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$20.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$21.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$22.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$23.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$5.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$6.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$7.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$8.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame$9.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame.class" />
       <change beforePath="$PROJECT_DIR$/src/MyFrame.java" afterPath="$PROJECT_DIR$/src/MyFrame.java" />
     </list>
@@ -55,26 +32,24 @@
       <file leaf-file-name="MyFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="170" column="4" lean-forward="false" selection-start-line="170" selection-start-column="4" selection-end-line="170" selection-end-column="4" />
+            <state relative-caret-position="299">
+              <caret line="181" column="64" lean-forward="true" selection-start-line="181" selection-start-column="64" selection-end-line="181" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
                 <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
                 <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
                 <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
                 <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
                 <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
                 <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-                <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-                <element signature="e#6706#6836#0" expanded="false" />
-                <element signature="e#6873#7264#0" expanded="false" />
-                <element signature="e#7384#7666#0" expanded="false" />
-                <element signature="e#7859#8157#0" expanded="false" />
-                <element signature="e#8195#8523#0" expanded="false" />
-                <element signature="e#8641#9259#0" expanded="false" />
-                <element signature="e#9299#9991#0" expanded="false" />
-                <element signature="e#10027#11099#0" expanded="false" />
+                <element signature="e#6705#6835#0" expanded="false" />
+                <element signature="e#6872#7263#0" expanded="false" />
+                <element signature="e#7383#7665#0" expanded="false" />
+                <element signature="e#7858#8156#0" expanded="false" />
+                <element signature="e#8194#8522#0" expanded="false" />
+                <element signature="e#8640#9258#0" expanded="false" />
+                <element signature="e#9298#9990#0" expanded="false" />
+                <element signature="e#10026#11241#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -97,8 +72,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -123,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Wynik.java" />
         <option value="$PROJECT_DIR$/src/MyFrameTest.java" />
+        <option value="$PROJECT_DIR$/src/KeyListener.java" />
         <option value="$PROJECT_DIR$/src/MyFrame.java" />
       </list>
     </option>
@@ -133,11 +109,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1" />
-    <option name="y" value="40" />
-    <option name="width" value="1296" />
-    <option name="height" value="696" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="32" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -189,10 +165,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,20 +308,21 @@
       <workItem from="1521724196242" duration="2368000" />
       <workItem from="1521727385386" duration="3997000" />
       <workItem from="1521733486671" duration="302000" />
-      <workItem from="1521811760115" duration="4411000" />
+      <workItem from="1521811760115" duration="5225000" />
+      <workItem from="1521817837214" duration="616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67180000" />
+    <option name="totallyTimeSpent" value="68610000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1296" height="696" extended-state="7" />
+    <frame x="-8" y="32" width="1296" height="696" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23842196" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -385,36 +362,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="110" column="27" lean-forward="false" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -433,22 +400,20 @@
           <caret line="110" column="27" lean-forward="false" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -467,22 +432,20 @@
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -501,22 +464,20 @@
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -535,22 +496,20 @@
           <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -569,22 +528,20 @@
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -603,22 +560,20 @@
           <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -637,22 +592,20 @@
           <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -671,22 +624,20 @@
           <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -705,22 +656,20 @@
           <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -739,22 +688,20 @@
           <caret line="23" column="65" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -773,22 +720,20 @@
           <caret line="23" column="65" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -807,22 +752,20 @@
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -841,22 +784,20 @@
           <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -993,14 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1019,28 +952,35 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyFrameTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeyListener.java" />
     <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="170" column="4" lean-forward="false" selection-start-line="170" selection-start-column="4" selection-end-line="170" selection-end-column="4" />
+        <state relative-caret-position="299">
+          <caret line="181" column="64" lean-forward="true" selection-start-line="181" selection-start-column="64" selection-end-line="181" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyFrame#0;class#MyFrame#0" expanded="false" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonAction#0;class#MyFrame#0" expanded="false" />
             <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#ActionListener#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6706#6836#0" expanded="false" />
-            <element signature="e#6873#7264#0" expanded="false" />
-            <element signature="e#7384#7666#0" expanded="false" />
-            <element signature="e#7859#8157#0" expanded="false" />
-            <element signature="e#8195#8523#0" expanded="false" />
-            <element signature="e#8641#9259#0" expanded="false" />
-            <element signature="e#9299#9991#0" expanded="false" />
-            <element signature="e#10027#11099#0" expanded="false" />
+            <element signature="e#6705#6835#0" expanded="false" />
+            <element signature="e#6872#7263#0" expanded="false" />
+            <element signature="e#7383#7665#0" expanded="false" />
+            <element signature="e#7858#8156#0" expanded="false" />
+            <element signature="e#8194#8522#0" expanded="false" />
+            <element signature="e#8640#9258#0" expanded="false" />
+            <element signature="e#9298#9990#0" expanded="false" />
+            <element signature="e#10026#11241#0" expanded="false" />
           </folding>
         </state>
       </provider>

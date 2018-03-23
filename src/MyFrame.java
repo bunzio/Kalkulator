@@ -23,6 +23,7 @@ public class MyFrame extends JFrame  {
         setLocation((width-fwidth)/2,(height-fheight)/2);
         setResizable(false);
 
+
         initComponents();
         addToContainer();
         setBounds();
@@ -132,7 +133,7 @@ public class MyFrame extends JFrame  {
     public void setOknoWynik(){
         oknoWynik.setHorizontalAlignment(JTextField.RIGHT);
         oknoWynik.setFont(new Font("System", Font.BOLD,20));
-        oknoWynik.setEditable(false);
+        //oknoWynik.setEditable(false);
         oknoWynik.setBackground(Color.white);
         oknoWynik.setText("0");
         oText= "0";
@@ -168,7 +169,7 @@ public class MyFrame extends JFrame  {
 
 
     }
-    
+
     public void ActionListener() {
         button0.addActionListener(evt -> buttonAction(button0));
         button1.addActionListener(evt -> buttonAction(button1));
@@ -300,7 +301,10 @@ public class MyFrame extends JFrame  {
             String str8 = str7.toString().replaceAll("÷", "/");
 
             StringBuffer str9 = new StringBuffer(str8);
-            dane = str9.toString().replaceAll("do", ",");
+            String str10 = str9.toString().replaceAll("pierwiastek", "Math.sqrt");
+
+            StringBuffer str11 = new StringBuffer(str10);
+            dane = str11.toString().replaceAll("do", ",");
 
 
 
