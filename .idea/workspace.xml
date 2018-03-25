@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a1c6ced-4900-4d76-a410-02f2a6d74728" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Kalkulator/MyFrame.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Kalkulator/buttonActionListener.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Kalkulator.iml" afterPath="$PROJECT_DIR$/Kalkulator.iml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/Kalkulator.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/Kalkulator.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/Wynik.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/Wynik.class" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/MyFrame.java" afterPath="$PROJECT_DIR$/src/MyFrame.java" />
-      <change beforePath="$PROJECT_DIR$/src/Wynik.java" afterPath="$PROJECT_DIR$/src/Wynik.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/buttonActionListener.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/buttonActionListener.class" />
+      <change beforePath="$PROJECT_DIR$/src/Kalkulator.java" afterPath="$PROJECT_DIR$/src/Kalkulator/Kalkulator.java" />
+      <change beforePath="$PROJECT_DIR$/src/MyFrame.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Wynik.java" afterPath="$PROJECT_DIR$/src/Kalkulator/Wynik.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,44 +27,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyFrame.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+      <file leaf-file-name="MyFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2675">
-              <caret line="327" column="5" lean-forward="true" selection-start-line="327" selection-start-column="5" selection-end-line="327" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
                 <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
                 <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
                 <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
-                <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-                <element signature="e#6643#6773#0" expanded="false" />
-                <element signature="e#7321#7603#0" expanded="false" />
-                <element signature="e#8100#8428#0" expanded="false" />
-                <element signature="e#8546#9164#0" expanded="false" />
-                <element signature="e#9204#9896#0" expanded="false" />
-                <element signature="e#9932#11147#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buttonActionListener.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Kalkulator/buttonActionListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+              <folding>
+                <element signature="e#1764#1894#0" expanded="false" />
+                <element signature="e#1931#2312#0" expanded="false" />
+                <element signature="e#2658#2924#0" expanded="false" />
+                <element signature="e#2962#3283#0" expanded="false" />
+                <element signature="e#3401#4049#0" expanded="false" />
+                <element signature="e#4089#4771#0" expanded="false" />
+                <element signature="e#4807#6020#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Kalkulator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kalkulator.java">
+        <entry file="file://$PROJECT_DIR$/src/Kalkulator/Kalkulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+            <state relative-caret-position="50">
+              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Wynik.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Wynik.java">
+        <entry file="file://$PROJECT_DIR$/src/Kalkulator/Wynik.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <caret line="3" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,9 +118,13 @@
         <option value="$PROJECT_DIR$/src/Wynik.java" />
         <option value="$PROJECT_DIR$/src/MyFrameTest.java" />
         <option value="$PROJECT_DIR$/src/sadas.java" />
-        <option value="$PROJECT_DIR$/src/Kalkulator.java" />
         <option value="$PROJECT_DIR$/src/buttonActionListener.java" />
+        <option value="$PROJECT_DIR$/src/Kalkulator.java" />
         <option value="$PROJECT_DIR$/src/MyFrame.java" />
+        <option value="$PROJECT_DIR$/src/Kalkulator/buttonActionListener.java" />
+        <option value="$PROJECT_DIR$/src/Kalkulator/MyFrame.java" />
+        <option value="$PROJECT_DIR$/src/Kalkulator/Kalkulator.java" />
+        <option value="$PROJECT_DIR$/src/Kalkulator/Wynik.java" />
       </list>
     </option>
   </component>
@@ -116,7 +134,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="415" />
     <option name="y" value="332" />
     <option name="width" value="1937" />
@@ -166,6 +184,12 @@
               <item name="Kalkulator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Kalkulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kalkulator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Kalkulator" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -176,12 +200,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kalk" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Tetris/Tetris" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -189,6 +213,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="OPEN_URL_DIALOG">
+      <recent name="http://github.com" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -330,7 +360,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\bunze\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -377,15 +407,15 @@
       <workItem from="1521920230668" duration="1018000" />
       <workItem from="1521921275979" duration="521000" />
       <workItem from="1521988485686" duration="807000" />
-      <workItem from="1521991770215" duration="3822000" />
+      <workItem from="1521991770215" duration="9954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88922000" />
+    <option name="totallyTimeSpent" value="95054000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="49" width="2902" height="1582" extended-state="7" />
+    <frame x="-11" y="49" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -401,7 +431,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1701389" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -430,15 +460,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -448,13 +470,6 @@
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6643#6773#0" expanded="false" />
-            <element signature="e#7321#7603#0" expanded="false" />
-            <element signature="e#8100#8428#0" expanded="false" />
-            <element signature="e#8546#9164#0" expanded="false" />
-            <element signature="e#9204#9896#0" expanded="false" />
-            <element signature="e#9932#11147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -467,7 +482,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -477,13 +492,6 @@
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6643#6773#0" expanded="false" />
-            <element signature="e#7321#7603#0" expanded="false" />
-            <element signature="e#8100#8428#0" expanded="false" />
-            <element signature="e#8546#9164#0" expanded="false" />
-            <element signature="e#9204#9896#0" expanded="false" />
-            <element signature="e#9932#11147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -496,7 +504,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1775">
           <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
@@ -506,13 +514,6 @@
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6643#6773#0" expanded="false" />
-            <element signature="e#7321#7603#0" expanded="false" />
-            <element signature="e#8100#8428#0" expanded="false" />
-            <element signature="e#8546#9164#0" expanded="false" />
-            <element signature="e#9204#9896#0" expanded="false" />
-            <element signature="e#9932#11147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -525,7 +526,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
@@ -535,13 +536,6 @@
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6643#6773#0" expanded="false" />
-            <element signature="e#7321#7603#0" expanded="false" />
-            <element signature="e#8100#8428#0" expanded="false" />
-            <element signature="e#8546#9164#0" expanded="false" />
-            <element signature="e#9204#9896#0" expanded="false" />
-            <element signature="e#9932#11147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -554,7 +548,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
@@ -564,13 +558,6 @@
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6643#6773#0" expanded="false" />
-            <element signature="e#7321#7603#0" expanded="false" />
-            <element signature="e#8100#8428#0" expanded="false" />
-            <element signature="e#8546#9164#0" expanded="false" />
-            <element signature="e#9204#9896#0" expanded="false" />
-            <element signature="e#9932#11147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -583,7 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
@@ -593,13 +580,6 @@
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6643#6773#0" expanded="false" />
-            <element signature="e#7321#7603#0" expanded="false" />
-            <element signature="e#8100#8428#0" expanded="false" />
-            <element signature="e#8546#9164#0" expanded="false" />
-            <element signature="e#9204#9896#0" expanded="false" />
-            <element signature="e#9932#11147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -612,7 +592,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
@@ -622,13 +602,6 @@
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6643#6773#0" expanded="false" />
-            <element signature="e#7321#7603#0" expanded="false" />
-            <element signature="e#8100#8428#0" expanded="false" />
-            <element signature="e#8546#9164#0" expanded="false" />
-            <element signature="e#9204#9896#0" expanded="false" />
-            <element signature="e#9932#11147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -641,7 +614,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
@@ -651,13 +624,6 @@
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6643#6773#0" expanded="false" />
-            <element signature="e#7321#7603#0" expanded="false" />
-            <element signature="e#8100#8428#0" expanded="false" />
-            <element signature="e#8546#9164#0" expanded="false" />
-            <element signature="e#9204#9896#0" expanded="false" />
-            <element signature="e#9932#11147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -670,7 +636,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="23" column="65" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
@@ -680,13 +646,6 @@
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6643#6773#0" expanded="false" />
-            <element signature="e#7321#7603#0" expanded="false" />
-            <element signature="e#8100#8428#0" expanded="false" />
-            <element signature="e#8546#9164#0" expanded="false" />
-            <element signature="e#9204#9896#0" expanded="false" />
-            <element signature="e#9932#11147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -699,7 +658,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="23" column="65" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
@@ -709,13 +668,6 @@
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6643#6773#0" expanded="false" />
-            <element signature="e#7321#7603#0" expanded="false" />
-            <element signature="e#8100#8428#0" expanded="false" />
-            <element signature="e#8546#9164#0" expanded="false" />
-            <element signature="e#9204#9896#0" expanded="false" />
-            <element signature="e#9932#11147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -728,7 +680,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
@@ -738,13 +690,6 @@
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6643#6773#0" expanded="false" />
-            <element signature="e#7321#7603#0" expanded="false" />
-            <element signature="e#8100#8428#0" expanded="false" />
-            <element signature="e#8546#9164#0" expanded="false" />
-            <element signature="e#9204#9896#0" expanded="false" />
-            <element signature="e#9932#11147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -757,7 +702,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
@@ -767,13 +712,6 @@
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6643#6773#0" expanded="false" />
-            <element signature="e#7321#7603#0" expanded="false" />
-            <element signature="e#8100#8428#0" expanded="false" />
-            <element signature="e#8546#9164#0" expanded="false" />
-            <element signature="e#9204#9896#0" expanded="false" />
-            <element signature="e#9932#11147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -880,13 +818,6 @@
     <entry file="file://$PROJECT_DIR$/src/JFrame.java" />
     <entry file="file://$PROJECT_DIR$/out/production/Kalkulator/Main.class" />
     <entry file="file://$PROJECT_DIR$/out/production/Kalkulator/MyFrame.class" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KeyListener.java" />
     <entry file="file://$PROJECT_DIR$/src/MyFrameTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -904,16 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wynik.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sadas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -922,39 +843,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/buttonActionListener.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="75" column="11" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="75" selection-end-column="11" />
+        <state relative-caret-position="675">
+          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator.java">
+    <entry file="http://github.com">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/Kalkulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        <state relative-caret-position="50">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/Wynik.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2675">
-          <caret line="327" column="5" lean-forward="true" selection-start-line="327" selection-start-column="5" selection-end-line="327" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#initComponents#0;class#MyFrame#0" expanded="false" />
             <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
             <element signature="method#setOknoWynik#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#buttonDzialanieAction#0;class#MyFrame#0" expanded="false" />
-            <element signature="e#6643#6773#0" expanded="false" />
-            <element signature="e#7321#7603#0" expanded="false" />
-            <element signature="e#8100#8428#0" expanded="false" />
-            <element signature="e#8546#9164#0" expanded="false" />
-            <element signature="e#9204#9896#0" expanded="false" />
-            <element signature="e#9932#11147#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/buttonActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+          <folding>
+            <element signature="e#1764#1894#0" expanded="false" />
+            <element signature="e#1931#2312#0" expanded="false" />
+            <element signature="e#2658#2924#0" expanded="false" />
+            <element signature="e#2962#3283#0" expanded="false" />
+            <element signature="e#3401#4049#0" expanded="false" />
+            <element signature="e#4089#4771#0" expanded="false" />
+            <element signature="e#4807#6020#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1016,6 +961,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
