@@ -4,7 +4,7 @@ import java.awt.*;
 public class MyFrame extends JFrame {
     protected JButton button0, button1, button2, button3, button4, button5, button6, button7, button8, button9, bDodwanie, bOdejmowanie,
             bMnozenie, bDzielenie, bPrzecinek, bPlusMinus, bWynik, bKasuj, bCofnij, bOnawias, bZnawias, bPierwiastek,
-            bXdoN, bDo;
+            bXdoN, bDo, bModulo;
 
     protected JTextField oknoWynik;
     protected Container kontener = this.getContentPane();
@@ -17,7 +17,7 @@ public class MyFrame extends JFrame {
         setTitle("Kalkulator v1.1.0");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
-        setSize(310, 270);
+        setSize(310, 250);
         int width = Toolkit.getDefaultToolkit().getScreenSize().width;
         int height = Toolkit.getDefaultToolkit().getScreenSize().height;
         int fwidth = getSize().width;
@@ -62,6 +62,7 @@ public class MyFrame extends JFrame {
         bPierwiastek = new JButton("√");
         bXdoN = new JButton("<html>X<sup>n</sup></html>");
         bDo = new JButton("do");
+        bModulo = new JButton("%");
     }
 
     public void addToContainer() {
@@ -90,6 +91,7 @@ public class MyFrame extends JFrame {
         kontener.add(bPierwiastek);
         kontener.add(bDo);
         kontener.add(bPlusMinus);
+        kontener.add(bModulo);
     }
 
     public void setBounds() {
@@ -130,6 +132,8 @@ public class MyFrame extends JFrame {
         bPierwiastek.setBackground(Color.lightGray);
         bPierwiastek.setBounds(170, 145, 50, 25);
         bDo.setBackground(Color.lightGray);
+        bModulo.setBounds(170,175,50,25);
+        bModulo.setBackground(Color.lightGray);
 
     }
 

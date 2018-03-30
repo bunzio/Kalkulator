@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a1c6ced-4900-4d76-a410-02f2a6d74728" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/Kalkulator.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/Kalkulator.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/buttonActionListener.class" afterPath="$PROJECT_DIR$/out/production/Kalkulator/buttonActionListener.class" />
-      <change beforePath="$PROJECT_DIR$/src/Kalkulator/Kalkulator.java" afterPath="$PROJECT_DIR$/src/Kalkulator/Kalkulator.java" />
-      <change beforePath="$PROJECT_DIR$/src/Kalkulator/MyFrame.java" afterPath="$PROJECT_DIR$/src/Kalkulator/MyFrame.java" />
-      <change beforePath="$PROJECT_DIR$/src/Kalkulator/buttonActionListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kalkulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kalkulator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/buttonActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kalkulator/buttonActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kalkulator/ButtonActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kalkulator/ButtonActionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kalkulator/FrameKeyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kalkulator/FrameKeyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kalkulator/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kalkulator/MyFrame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,20 +18,59 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Kalkulator" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Wynik.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Kalkulator/Wynik.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Wynik#0;class#Wynik#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MyFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="233">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
-                <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+                <element signature="e#527#1112#0" />
+                <element signature="e#1119#2133#0" />
+                <element signature="e#2139#2969#0" />
+                <element signature="e#2975#4712#0" />
+                <element signature="e#4718#5034#0" />
               </folding>
             </state>
           </provider>
@@ -40,18 +79,20 @@
       <file leaf-file-name="ButtonActionListener.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Kalkulator/ButtonActionListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="306">
+              <caret line="100" column="27" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
               <folding>
-                <element signature="method#buttonAction#0;class#ButtonActionListener#0" expanded="false" />
-                <element signature="method#buttonDzialanieAction#0;class#ButtonActionListener#0" expanded="false" />
-                <element signature="method#buttonCofnij#0;class#ButtonActionListener#0" expanded="false" />
-                <element signature="method#buttonKasuj#0;class#ButtonActionListener#0" expanded="false" />
-                <element signature="method#buttonOnawias#0;class#ButtonActionListener#0" expanded="false" />
-                <element signature="method#buttonPierwiastek#0;class#ButtonActionListener#0" expanded="false" />
-                <element signature="method#wynik#0;class#ButtonActionListener#0" expanded="false" />
-                <element signature="method#xDoN#0;class#ButtonActionListener#0" expanded="false" />
-                <element signature="method#przecinek#0;class#ButtonActionListener#0" expanded="false" />
+                <element signature="method#ButtonActionListener#0;class#ButtonActionListener#0" />
+                <element signature="method#buttonAction#0;class#ButtonActionListener#0" />
+                <element signature="method#buttonDzialanieAction#0;class#ButtonActionListener#0" />
+                <element signature="method#buttonCofnij#0;class#ButtonActionListener#0" />
+                <element signature="method#buttonKasuj#0;class#ButtonActionListener#0" />
+                <element signature="method#buttonOnawias#0;class#ButtonActionListener#0" />
+                <element signature="method#buttonPierwiastek#0;class#ButtonActionListener#0" />
+                <element signature="method#wynik#0;class#ButtonActionListener#0" />
+                <element signature="method#xDoN#0;class#ButtonActionListener#0" />
+                <element signature="method#przecinek#0;class#ButtonActionListener#0" />
+                <element signature="method#createButtonActionListener#0;class#ButtonActionListener#0" />
               </folding>
             </state>
           </provider>
@@ -60,12 +101,66 @@
       <file leaf-file-name="FrameKeyListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kalkulator/FrameKeyListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="227" column="5" lean-forward="true" selection-start-line="227" selection-start-column="5" selection-end-line="227" selection-end-column="5" />
+            <state relative-caret-position="399">
+              <caret line="251" column="41" selection-start-line="251" selection-start-column="41" selection-end-line="251" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#addKeyListenerToAllComponents#0;class#FrameKeyListener#0" expanded="false" />
-                <element signature="method#button0_9KeyListener#0;class#FrameKeyListener#0" expanded="false" />
+                <element signature="method#addKeyListenerToAllComponents#0;class#FrameKeyListener#0" />
+                <element signature="e#294#495#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#529#730#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#764#965#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
+                <element signature="e#999#1200#0" expanded="true" />
+                <element signature="e#1199#1200#0" expanded="true" />
+                <element signature="e#1234#1435#0" expanded="true" />
+                <element signature="e#1434#1435#0" expanded="true" />
+                <element signature="e#1469#1670#0" expanded="true" />
+                <element signature="e#1669#1670#0" expanded="true" />
+                <element signature="e#1704#1905#0" expanded="true" />
+                <element signature="e#1904#1905#0" expanded="true" />
+                <element signature="e#1939#2140#0" expanded="true" />
+                <element signature="e#2139#2140#0" expanded="true" />
+                <element signature="e#2174#2375#0" expanded="true" />
+                <element signature="e#2374#2375#0" expanded="true" />
+                <element signature="e#2409#2610#0" expanded="true" />
+                <element signature="e#2609#2610#0" expanded="true" />
+                <element signature="e#2644#2845#0" expanded="true" />
+                <element signature="e#2844#2845#0" expanded="true" />
+                <element signature="e#2879#3080#0" expanded="true" />
+                <element signature="e#3079#3080#0" expanded="true" />
+                <element signature="e#3117#3318#0" expanded="true" />
+                <element signature="e#3317#3318#0" expanded="true" />
+                <element signature="e#3352#3553#0" expanded="true" />
+                <element signature="e#3552#3553#0" expanded="true" />
+                <element signature="e#3586#3787#0" expanded="true" />
+                <element signature="e#3786#3787#0" expanded="true" />
+                <element signature="e#3822#4023#0" expanded="true" />
+                <element signature="e#4022#4023#0" expanded="true" />
+                <element signature="e#4058#4259#0" expanded="true" />
+                <element signature="e#4258#4259#0" expanded="true" />
+                <element signature="e#4296#4497#0" expanded="true" />
+                <element signature="e#4496#4497#0" expanded="true" />
+                <element signature="e#4529#4730#0" expanded="true" />
+                <element signature="e#4729#4730#0" expanded="true" />
+                <element signature="e#4766#4967#0" expanded="true" />
+                <element signature="e#4966#4967#0" expanded="true" />
+                <element signature="e#4997#5198#0" expanded="true" />
+                <element signature="e#5197#5198#0" expanded="true" />
+                <element signature="e#5237#5438#0" expanded="true" />
+                <element signature="e#5437#5438#0" expanded="true" />
+                <element signature="e#5474#5675#0" expanded="true" />
+                <element signature="e#5674#5675#0" expanded="true" />
+                <element signature="e#5714#5915#0" expanded="true" />
+                <element signature="e#5914#5915#0" expanded="true" />
+                <element signature="e#5948#6149#0" expanded="true" />
+                <element signature="e#6148#6149#0" expanded="true" />
+                <element signature="e#6186#6387#0" expanded="true" />
+                <element signature="e#6386#6387#0" expanded="true" />
+                <element signature="e#6423#6624#0" expanded="true" />
+                <element signature="e#6623#6624#0" expanded="true" />
+                <element signature="method#button0_9KeyListener#0;class#FrameKeyListener#0" />
               </folding>
             </state>
           </provider>
@@ -74,21 +169,8 @@
       <file leaf-file-name="Kalkulator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kalkulator/Kalkulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="63" lean-forward="false" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wynik.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kalkulator/Wynik.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -115,11 +197,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -133,10 +210,16 @@
         <option value="$PROJECT_DIR$/src/MyFrame.java" />
         <option value="$PROJECT_DIR$/src/Kalkulator/Wynik.java" />
         <option value="$PROJECT_DIR$/src/Kalkulator/buttonActionListener.java" />
+        <option value="$PROJECT_DIR$/src/test/MyFrameTest.java" />
+        <option value="$PROJECT_DIR$/src/test/KalkulatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/ButtonActionListenerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/FrameKeyListenerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/WynikTest.java" />
         <option value="$PROJECT_DIR$/src/Kalkulator/Kalkulator.java" />
+        <option value="$PROJECT_DIR$/src/Kalkulator/style.css" />
         <option value="$PROJECT_DIR$/src/Kalkulator/MyFrame.java" />
-        <option value="$PROJECT_DIR$/src/Kalkulator/ButtonActionListener.java" />
         <option value="$PROJECT_DIR$/src/Kalkulator/FrameKeyListener.java" />
+        <option value="$PROJECT_DIR$/src/Kalkulator/ButtonActionListener.java" />
       </list>
     </option>
   </component>
@@ -146,34 +229,27 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="415" />
-    <option name="y" value="332" />
-    <option name="width" value="1937" />
-    <option name="height" value="1056" />
+    <option name="x" value="492" />
+    <option name="y" value="226" />
+    <option name="width" value="934" />
+    <option name="height" value="668" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,21 +283,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Tetris/Tetris" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="tod&#9;ACTION&#9;ActivateTODOToolWindow" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/TestApp" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -254,51 +333,22 @@
   </component>
   <component name="RunManager" selected="Application.Kalkulator">
     <configuration name="Kalkulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Kalkulator" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Kalkulator" />
-      <envs />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="MyFrame" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MyFrame" />
       <module name="Kalkulator" />
-      <envs />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
     <configuration name="buttonActionListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="buttonActionListener" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Kalkulator" />
-      <envs />
     </configuration>
     <configuration name="MyFrameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Kalkulator" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -309,16 +359,13 @@
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration name="MyFrameTest.addToContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Kalkulator" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -329,12 +376,10 @@
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -352,24 +397,21 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MyFrameTest.addToContainer" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MyFrameTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.buttonActionListener" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Kalkulator" />
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.MyFrameTest.addToContainer" />
+      <item itemvalue="JUnit.MyFrameTest" />
+      <item itemvalue="Application.buttonActionListener" />
+      <item itemvalue="Application.Kalkulator" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Kalkulator" />
-        <item index="1" class="java.lang.String" itemvalue="Application.buttonActionListener" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MyFrameTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MyFrameTest.addToContainer" />
+      <list>
+        <item itemvalue="Application.Kalkulator" />
+        <item itemvalue="Application.buttonActionListener" />
+        <item itemvalue="JUnit.MyFrameTest" />
+        <item itemvalue="JUnit.MyFrameTest.addToContainer" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\bunze\AppData\Roaming\Subversion</configuration>
@@ -420,107 +462,118 @@
       <workItem from="1521921275979" duration="521000" />
       <workItem from="1521988485686" duration="807000" />
       <workItem from="1521991770215" duration="9954000" />
-      <workItem from="1522066847991" duration="12210000" />
+      <workItem from="1522066847991" duration="13508000" />
+      <workItem from="1522086615859" duration="348000" />
+      <workItem from="1522156730404" duration="184000" />
+      <workItem from="1522251997480" duration="640000" />
+      <workItem from="1522254667181" duration="105000" />
+      <workItem from="1522254861515" duration="1090000" />
+      <workItem from="1522261360433" duration="1132000" />
+      <workItem from="1522280389662" duration="8000" />
+      <workItem from="1522281395954" duration="3385000" />
+      <workItem from="1522421465785" duration="1692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107264000" />
+    <option name="totallyTimeSpent" value="117146000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="49" width="1942" height="1042" extended-state="6" />
+    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31303117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33027524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39943343" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291592" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.31154683" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3291592" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32942432" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Version Control" order="9" weight="0.32889125" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3278867" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3291592" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756888" visible="true" weight="0.16897655" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32942432" />
+      <window_info id="Structure" order="1" sideWeight="0.5024311" side_tool="true" weight="0.16897655" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2489339" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="5" sideWeight="0.5008944" side_tool="true" weight="0.18218623" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="15" />
     </breakpoint-manager>
-    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="e#527#1112#0" />
+            <element signature="e#1119#2133#0" />
+            <element signature="e#2139#2969#0" />
+            <element signature="e#2975#4712#0" />
+            <element signature="e#4718#5034#0" />
           </folding>
         </state>
       </provider>
@@ -529,11 +582,14 @@
     <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="e#527#1112#0" />
+            <element signature="e#1119#2133#0" />
+            <element signature="e#2139#2969#0" />
+            <element signature="e#2975#4712#0" />
+            <element signature="e#4718#5034#0" />
           </folding>
         </state>
       </provider>
@@ -542,11 +598,14 @@
     <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="e#527#1112#0" />
+            <element signature="e#1119#2133#0" />
+            <element signature="e#2139#2969#0" />
+            <element signature="e#2975#4712#0" />
+            <element signature="e#4718#5034#0" />
           </folding>
         </state>
       </provider>
@@ -555,11 +614,14 @@
     <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
-          <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="e#527#1112#0" />
+            <element signature="e#1119#2133#0" />
+            <element signature="e#2139#2969#0" />
+            <element signature="e#2975#4712#0" />
+            <element signature="e#4718#5034#0" />
           </folding>
         </state>
       </provider>
@@ -568,11 +630,14 @@
     <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
-          <caret line="23" column="65" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="e#527#1112#0" />
+            <element signature="e#1119#2133#0" />
+            <element signature="e#2139#2969#0" />
+            <element signature="e#2975#4712#0" />
+            <element signature="e#4718#5034#0" />
           </folding>
         </state>
       </provider>
@@ -581,11 +646,14 @@
     <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
-          <caret line="23" column="65" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="e#527#1112#0" />
+            <element signature="e#1119#2133#0" />
+            <element signature="e#2139#2969#0" />
+            <element signature="e#2975#4712#0" />
+            <element signature="e#4718#5034#0" />
           </folding>
         </state>
       </provider>
@@ -594,11 +662,14 @@
     <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="e#527#1112#0" />
+            <element signature="e#1119#2133#0" />
+            <element signature="e#2139#2969#0" />
+            <element signature="e#2975#4712#0" />
+            <element signature="e#4718#5034#0" />
           </folding>
         </state>
       </provider>
@@ -610,8 +681,11 @@
           <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
+            <element signature="e#527#1112#0" />
+            <element signature="e#1119#2133#0" />
+            <element signature="e#2139#2969#0" />
+            <element signature="e#2975#4712#0" />
+            <element signature="e#4718#5034#0" />
           </folding>
         </state>
       </provider>
@@ -641,71 +715,133 @@
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
-          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="http://github.com">
-      <provider selected="true" editor-type-id="httpFileEditor">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/KalkulatorTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/WynikTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/ButtonActionListenerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/FrameKeyListenerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/MyFrameTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/jkmnk.java" />
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/jhnm.java" />
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/style.css" />
     <entry file="file://$PROJECT_DIR$/src/Kalkulator/Wynik.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#Wynik#0;class#Wynik#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kalkulator/Kalkulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="63" lean-forward="false" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addToContainer#0;class#MyFrame#0" expanded="false" />
-            <element signature="method#setBounds#0;class#MyFrame#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kalkulator/FrameKeyListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="227" column="5" lean-forward="true" selection-start-line="227" selection-start-column="5" selection-end-line="227" selection-end-column="5" />
+        <state relative-caret-position="399">
+          <caret line="251" column="41" selection-start-line="251" selection-start-column="41" selection-end-line="251" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addKeyListenerToAllComponents#0;class#FrameKeyListener#0" expanded="false" />
-            <element signature="method#button0_9KeyListener#0;class#FrameKeyListener#0" expanded="false" />
+            <element signature="method#addKeyListenerToAllComponents#0;class#FrameKeyListener#0" />
+            <element signature="e#294#495#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#529#730#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#764#965#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#999#1200#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1234#1435#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1469#1670#0" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1704#1905#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1939#2140#0" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
+            <element signature="e#2174#2375#0" expanded="true" />
+            <element signature="e#2374#2375#0" expanded="true" />
+            <element signature="e#2409#2610#0" expanded="true" />
+            <element signature="e#2609#2610#0" expanded="true" />
+            <element signature="e#2644#2845#0" expanded="true" />
+            <element signature="e#2844#2845#0" expanded="true" />
+            <element signature="e#2879#3080#0" expanded="true" />
+            <element signature="e#3079#3080#0" expanded="true" />
+            <element signature="e#3117#3318#0" expanded="true" />
+            <element signature="e#3317#3318#0" expanded="true" />
+            <element signature="e#3352#3553#0" expanded="true" />
+            <element signature="e#3552#3553#0" expanded="true" />
+            <element signature="e#3586#3787#0" expanded="true" />
+            <element signature="e#3786#3787#0" expanded="true" />
+            <element signature="e#3822#4023#0" expanded="true" />
+            <element signature="e#4022#4023#0" expanded="true" />
+            <element signature="e#4058#4259#0" expanded="true" />
+            <element signature="e#4258#4259#0" expanded="true" />
+            <element signature="e#4296#4497#0" expanded="true" />
+            <element signature="e#4496#4497#0" expanded="true" />
+            <element signature="e#4529#4730#0" expanded="true" />
+            <element signature="e#4729#4730#0" expanded="true" />
+            <element signature="e#4766#4967#0" expanded="true" />
+            <element signature="e#4966#4967#0" expanded="true" />
+            <element signature="e#4997#5198#0" expanded="true" />
+            <element signature="e#5197#5198#0" expanded="true" />
+            <element signature="e#5237#5438#0" expanded="true" />
+            <element signature="e#5437#5438#0" expanded="true" />
+            <element signature="e#5474#5675#0" expanded="true" />
+            <element signature="e#5674#5675#0" expanded="true" />
+            <element signature="e#5714#5915#0" expanded="true" />
+            <element signature="e#5914#5915#0" expanded="true" />
+            <element signature="e#5948#6149#0" expanded="true" />
+            <element signature="e#6148#6149#0" expanded="true" />
+            <element signature="e#6186#6387#0" expanded="true" />
+            <element signature="e#6386#6387#0" expanded="true" />
+            <element signature="e#6423#6624#0" expanded="true" />
+            <element signature="e#6623#6624#0" expanded="true" />
+            <element signature="method#button0_9KeyListener#0;class#FrameKeyListener#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#527#1112#0" />
+            <element signature="e#1119#2133#0" />
+            <element signature="e#2139#2969#0" />
+            <element signature="e#2975#4712#0" />
+            <element signature="e#4718#5034#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kalkulator/ButtonActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="306">
+          <caret line="100" column="27" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
           <folding>
-            <element signature="method#buttonAction#0;class#ButtonActionListener#0" expanded="false" />
-            <element signature="method#buttonDzialanieAction#0;class#ButtonActionListener#0" expanded="false" />
-            <element signature="method#buttonCofnij#0;class#ButtonActionListener#0" expanded="false" />
-            <element signature="method#buttonKasuj#0;class#ButtonActionListener#0" expanded="false" />
-            <element signature="method#buttonOnawias#0;class#ButtonActionListener#0" expanded="false" />
-            <element signature="method#buttonPierwiastek#0;class#ButtonActionListener#0" expanded="false" />
-            <element signature="method#wynik#0;class#ButtonActionListener#0" expanded="false" />
-            <element signature="method#xDoN#0;class#ButtonActionListener#0" expanded="false" />
-            <element signature="method#przecinek#0;class#ButtonActionListener#0" expanded="false" />
+            <element signature="method#ButtonActionListener#0;class#ButtonActionListener#0" />
+            <element signature="method#buttonAction#0;class#ButtonActionListener#0" />
+            <element signature="method#buttonDzialanieAction#0;class#ButtonActionListener#0" />
+            <element signature="method#buttonCofnij#0;class#ButtonActionListener#0" />
+            <element signature="method#buttonKasuj#0;class#ButtonActionListener#0" />
+            <element signature="method#buttonOnawias#0;class#ButtonActionListener#0" />
+            <element signature="method#buttonPierwiastek#0;class#ButtonActionListener#0" />
+            <element signature="method#wynik#0;class#ButtonActionListener#0" />
+            <element signature="method#xDoN#0;class#ButtonActionListener#0" />
+            <element signature="method#przecinek#0;class#ButtonActionListener#0" />
+            <element signature="method#createButtonActionListener#0;class#ButtonActionListener#0" />
           </folding>
         </state>
       </provider>

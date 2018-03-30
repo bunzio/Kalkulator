@@ -243,11 +243,13 @@ public class FrameKeyListener extends ButtonActionListener {
         if (e.getKeyChar() == '(')
             buttonOnawias();
         if (e.getKeyChar() == ')')
-            buttonDzialanieAction(bZnawias);
+            buttonZnawias();
         if (e.getKeyChar() == '=' || e.getKeyCode() == KeyEvent.VK_ENTER)
             wynik();
         if (e.getKeyChar() == ',')
             przecinek();
+        if (e.getKeyChar() == '%')
+            buttonDzialanieAction(bModulo);
 
     }
 
