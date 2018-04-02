@@ -4,11 +4,43 @@
     <list default="true" id="1a1c6ced-4900-4d76-a410-02f2a6d74728" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kalkulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kalkulator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/buttonActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kalkulator/buttonActionListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kalkulator/ButtonActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kalkulator/ButtonActionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kalkulator/FrameKeyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kalkulator/FrameKeyListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kalkulator/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kalkulator/MyFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/FrameKeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/Kalkulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/MyFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/Wynik.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/buttonActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kalkulator/ButtonActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kalkulator/Frame/ButtonActionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kalkulator/FrameKeyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kalkulator/Frame/FrameKeyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kalkulator/Kalkulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kalkulator/KalkulatorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kalkulator/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kalkulator/Frame/MyFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kalkulator/Wynik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kalkulator/Frame/Wynik.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,131 +78,120 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Wynik.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kalkulator/Wynik.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Wynik#0;class#Wynik#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyFrame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
+        <entry file="file://$PROJECT_DIR$/src/Kalkulator/Frame/MyFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#527#1112#0" />
-                <element signature="e#1119#2133#0" />
-                <element signature="e#2139#2969#0" />
-                <element signature="e#2975#4712#0" />
-                <element signature="e#4718#5034#0" />
+                <element signature="docComment;class#MyFrame#0" />
+                <element signature="e#520#1165#0" />
+                <element signature="e#1172#2223#0" />
+                <element signature="e#2229#3091#0" />
+                <element signature="e#3097#4925#0" />
+                <element signature="e#4931#5205#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ButtonActionListener.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Kalkulator/ButtonActionListener.java">
+      <file leaf-file-name="ButtonActionListenerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Frame/ButtonActionListenerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="100" column="27" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+            <state relative-caret-position="867">
+              <caret line="161" column="25" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
               <folding>
-                <element signature="method#ButtonActionListener#0;class#ButtonActionListener#0" />
-                <element signature="method#buttonAction#0;class#ButtonActionListener#0" />
-                <element signature="method#buttonDzialanieAction#0;class#ButtonActionListener#0" />
-                <element signature="method#buttonCofnij#0;class#ButtonActionListener#0" />
-                <element signature="method#buttonKasuj#0;class#ButtonActionListener#0" />
-                <element signature="method#buttonOnawias#0;class#ButtonActionListener#0" />
-                <element signature="method#buttonPierwiastek#0;class#ButtonActionListener#0" />
-                <element signature="method#wynik#0;class#ButtonActionListener#0" />
-                <element signature="method#xDoN#0;class#ButtonActionListener#0" />
-                <element signature="method#przecinek#0;class#ButtonActionListener#0" />
-                <element signature="method#createButtonActionListener#0;class#ButtonActionListener#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#ifEndsWithTest#0;class#ButtonActionListenerTest#0" />
+                <element signature="method#buttonActionTest#0;class#ButtonActionListenerTest#0" />
+                <element signature="method#buttonDzialanieActionTest#0;class#ButtonActionListenerTest#0" />
+                <element signature="method#buttonCofnijTest#0;class#ButtonActionListenerTest#0" />
+                <element signature="method#buttonKasujTest#0;class#ButtonActionListenerTest#0" />
+                <element signature="method#buttonOnawiasTest#0;class#ButtonActionListenerTest#0" />
+                <element signature="method#buttonZnawiasTest#0;class#ButtonActionListenerTest#0" />
+                <element signature="method#ifEndsWithDzialanieTest#0;class#ButtonActionListenerTest#0" />
+                <element signature="method#ifLastNumberTest#0;class#ButtonActionListenerTest#0" />
+                <element signature="method#buttonPierwiastekTest#0;class#ButtonActionListenerTest#0" />
+                <element signature="method#wynikTest#0;class#ButtonActionListenerTest#0" />
+                <element signature="method#xDoNTest#0;class#ButtonActionListenerTest#0" />
+                <element signature="method#przecinekTest#0;class#ButtonActionListenerTest#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FrameKeyListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kalkulator/FrameKeyListener.java">
+        <entry file="file://$PROJECT_DIR$/src/Kalkulator/Frame/FrameKeyListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="251" column="41" selection-start-line="251" selection-start-column="41" selection-end-line="251" selection-end-column="41" />
+            <state relative-caret-position="170">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#addKeyListenerToAllComponents#0;class#FrameKeyListener#0" />
-                <element signature="e#294#495#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#529#730#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#764#965#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#999#1200#0" expanded="true" />
-                <element signature="e#1199#1200#0" expanded="true" />
-                <element signature="e#1234#1435#0" expanded="true" />
-                <element signature="e#1434#1435#0" expanded="true" />
-                <element signature="e#1469#1670#0" expanded="true" />
-                <element signature="e#1669#1670#0" expanded="true" />
-                <element signature="e#1704#1905#0" expanded="true" />
-                <element signature="e#1904#1905#0" expanded="true" />
-                <element signature="e#1939#2140#0" expanded="true" />
-                <element signature="e#2139#2140#0" expanded="true" />
-                <element signature="e#2174#2375#0" expanded="true" />
-                <element signature="e#2374#2375#0" expanded="true" />
-                <element signature="e#2409#2610#0" expanded="true" />
-                <element signature="e#2609#2610#0" expanded="true" />
-                <element signature="e#2644#2845#0" expanded="true" />
-                <element signature="e#2844#2845#0" expanded="true" />
-                <element signature="e#2879#3080#0" expanded="true" />
-                <element signature="e#3079#3080#0" expanded="true" />
-                <element signature="e#3117#3318#0" expanded="true" />
-                <element signature="e#3317#3318#0" expanded="true" />
-                <element signature="e#3352#3553#0" expanded="true" />
-                <element signature="e#3552#3553#0" expanded="true" />
-                <element signature="e#3586#3787#0" expanded="true" />
-                <element signature="e#3786#3787#0" expanded="true" />
-                <element signature="e#3822#4023#0" expanded="true" />
-                <element signature="e#4022#4023#0" expanded="true" />
-                <element signature="e#4058#4259#0" expanded="true" />
-                <element signature="e#4258#4259#0" expanded="true" />
-                <element signature="e#4296#4497#0" expanded="true" />
-                <element signature="e#4496#4497#0" expanded="true" />
-                <element signature="e#4529#4730#0" expanded="true" />
-                <element signature="e#4729#4730#0" expanded="true" />
-                <element signature="e#4766#4967#0" expanded="true" />
-                <element signature="e#4966#4967#0" expanded="true" />
-                <element signature="e#4997#5198#0" expanded="true" />
-                <element signature="e#5197#5198#0" expanded="true" />
-                <element signature="e#5237#5438#0" expanded="true" />
-                <element signature="e#5437#5438#0" expanded="true" />
-                <element signature="e#5474#5675#0" expanded="true" />
-                <element signature="e#5674#5675#0" expanded="true" />
-                <element signature="e#5714#5915#0" expanded="true" />
-                <element signature="e#5914#5915#0" expanded="true" />
-                <element signature="e#5948#6149#0" expanded="true" />
-                <element signature="e#6148#6149#0" expanded="true" />
-                <element signature="e#6186#6387#0" expanded="true" />
-                <element signature="e#6386#6387#0" expanded="true" />
-                <element signature="e#6423#6624#0" expanded="true" />
-                <element signature="e#6623#6624#0" expanded="true" />
                 <element signature="method#button0_9KeyListener#0;class#FrameKeyListener#0" />
+                <element signature="method#buttonDzialanieKeyListener#0;class#FrameKeyListener#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kalkulator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kalkulator/Kalkulator.java">
+      <file leaf-file-name="AbstractButton.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/AbstractButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="190">
+              <caret line="359" column="16" selection-start-line="359" selection-start-column="16" selection-end-line="359" selection-end-column="16" />
+              <folding>
+                <element signature="e#12137#12138#0" expanded="true" />
+                <element signature="e#12164#12165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JMenu.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/JMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="1286" column="16" selection-start-line="1286" selection-start-column="16" selection-end-line="1286" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KalkulatorApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Kalkulator/KalkulatorApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonActionListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Kalkulator/Frame/ButtonActionListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="method#ButtonActionListener#0;class#ButtonActionListener#0" />
+                <element signature="method#createButtonActionListener#0;class#ButtonActionListener#0" />
+                <element signature="method#ifEndsWithDzialanie#0;class#ButtonActionListener#0" />
+                <element signature="method#ifEndsWithAllDzialanie#0;class#ButtonActionListener#0" />
+                <element signature="method#ifLastNumber#0;class#ButtonActionListener#0" />
+                <element signature="method#buttonAction#0;class#ButtonActionListener#0" />
+                <element signature="method#buttonDzialanieAction#0;class#ButtonActionListener#0" />
+                <element signature="method#buttonCofnij#0;class#ButtonActionListener#0" />
+                <element signature="method#buttonKasuj#0;class#ButtonActionListener#0" />
+                <element signature="method#buttonOnawias#0;class#ButtonActionListener#0" />
+                <element signature="method#buttonZnawias#0;class#ButtonActionListener#0" />
+                <element signature="method#buttonPierwiastek#0;class#ButtonActionListener#0" />
+                <element signature="method#wynik#0;class#ButtonActionListener#0" />
+                <element signature="method#xDoN#0;class#ButtonActionListener#0" />
+                <element signature="method#przecinek#0;class#ButtonActionListener#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,16 +203,19 @@
       <list>
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>oText == &quot;0&quot;</find>
-      <find>przecinek</find>
       <find>iText</find>
+      <find>MyFrame.oText</find>
+      <find>MyFrame.licz</find>
+      <find>MyFrame.przecinek</find>
+      <find>przecinek</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -217,9 +241,16 @@
         <option value="$PROJECT_DIR$/src/test/WynikTest.java" />
         <option value="$PROJECT_DIR$/src/Kalkulator/Kalkulator.java" />
         <option value="$PROJECT_DIR$/src/Kalkulator/style.css" />
-        <option value="$PROJECT_DIR$/src/Kalkulator/MyFrame.java" />
         <option value="$PROJECT_DIR$/src/Kalkulator/FrameKeyListener.java" />
+        <option value="$PROJECT_DIR$/src/Kalkulator/MyFrame.java" />
         <option value="$PROJECT_DIR$/src/Kalkulator/ButtonActionListener.java" />
+        <option value="$PROJECT_DIR$/src/Kalkulator/Frame/MyFrame.java" />
+        <option value="$PROJECT_DIR$/src/Kalkulator/Frame/FrameKeyListener.java" />
+        <option value="$PROJECT_DIR$/src/Kalkulator/KalkulatorApplication.java" />
+        <option value="$PROJECT_DIR$/test/Frame/MyFrameTest.java" />
+        <option value="$PROJECT_DIR$/test/Frame/ButtonActionListenerTest.java" />
+        <option value="$PROJECT_DIR$/src/Kalkulator/Frame/ButtonActionListener.java" />
+        <option value="$PROJECT_DIR$/test/Frame/FrameKeyListenerTest.java" />
       </list>
     </option>
   </component>
@@ -237,9 +268,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="492" />
-    <option name="y" value="226" />
-    <option name="width" value="934" />
-    <option name="height" value="668" />
+    <option name="y" value="225" />
+    <option name="width" value="936" />
+    <option name="height" value="669" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -249,7 +280,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,12 +310,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Kalkulator" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Kalkulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kalkulator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Kalkulator" type="462c0819:PsiDirectoryNode" />
+              <item name="Frame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kalkulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kalkulator" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kalkulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kalkulator" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Frame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kalkulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,8 +348,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/TestApp" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringFramework" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -304,12 +359,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Frame" />
       <recent name="" />
     </key>
     <key name="OPEN_URL_DIALOG">
       <recent name="http://github.com" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Frame" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -331,29 +388,44 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Kalkulator">
-    <configuration name="Kalkulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kalkulator" />
-      <module name="Kalkulator" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.Frame in Kalkulator">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="MyFrame" />
+      <option name="MAIN_CLASS_NAME" value="Frame.MyFrame" />
       <module name="Kalkulator" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
-    <configuration name="buttonActionListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="buttonActionListener" />
-      <module name="Kalkulator" />
-    </configuration>
-    <configuration name="MyFrameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Kalkulator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kalkulator" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyFrameTest" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ButtonActionListenerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kalkulator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Frame" />
+      <option name="MAIN_CLASS_NAME" value="Frame.ButtonActionListenerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -365,13 +437,65 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MyFrameTest.addToContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ButtonActionListenerTest.przecinekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kalkulator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyFrameTest" />
-      <option name="METHOD_NAME" value="addToContainer" />
+      <option name="PACKAGE_NAME" value="Frame" />
+      <option name="MAIN_CLASS_NAME" value="Frame.ButtonActionListenerTest" />
+      <option name="METHOD_NAME" value="przecinekTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Frame in Kalkulator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kalkulator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Frame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Frame" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FrameKeyListenerTest.addKeyListenerToAllComponentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kalkulator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Frame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Frame" />
+      <option name="MAIN_CLASS_NAME" value="Frame.FrameKeyListenerTest" />
+      <option name="METHOD_NAME" value="addKeyListenerToAllComponentsTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -399,17 +523,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.MyFrameTest.addToContainer" />
-      <item itemvalue="JUnit.MyFrameTest" />
-      <item itemvalue="Application.buttonActionListener" />
-      <item itemvalue="Application.Kalkulator" />
+      <item itemvalue="JUnit.ButtonActionListenerTest" />
+      <item itemvalue="JUnit.ButtonActionListenerTest.przecinekTest" />
+      <item itemvalue="JUnit.All in Kalkulator" />
+      <item itemvalue="JUnit.Frame in Kalkulator" />
+      <item itemvalue="JUnit.FrameKeyListenerTest.addKeyListenerToAllComponentsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Kalkulator" />
-        <item itemvalue="Application.buttonActionListener" />
-        <item itemvalue="JUnit.MyFrameTest" />
-        <item itemvalue="JUnit.MyFrameTest.addToContainer" />
+        <item itemvalue="JUnit.Frame in Kalkulator" />
+        <item itemvalue="JUnit.FrameKeyListenerTest.addKeyListenerToAllComponentsTest" />
+        <item itemvalue="JUnit.All in Kalkulator" />
+        <item itemvalue="JUnit.ButtonActionListenerTest.przecinekTest" />
+        <item itemvalue="JUnit.ButtonActionListenerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -471,12 +597,48 @@
       <workItem from="1522261360433" duration="1132000" />
       <workItem from="1522280389662" duration="8000" />
       <workItem from="1522281395954" duration="3385000" />
-      <workItem from="1522421465785" duration="1692000" />
+      <workItem from="1522421465785" duration="3547000" />
+      <workItem from="1522509753362" duration="87000" />
+      <workItem from="1522516008332" duration="132000" />
+      <workItem from="1522623839970" duration="8170000" />
+      <workItem from="1522679252774" duration="6560000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ButtonActionListenerTest_wynikTest - 2018.04.02 at 20h 01m 53s.xml">
+      <configuration name="ButtonActionListenerTest.wynikTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ButtonActionListenerTest_wynikTest - 2018.04.02 at 20h 02m 11s.xml">
+      <configuration name="ButtonActionListenerTest.wynikTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ButtonActionListenerTest_xDoNTest - 2018.04.02 at 20h 11m 50s.xml">
+      <configuration name="ButtonActionListenerTest.xDoNTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ButtonActionListenerTest_xDoNTest - 2018.04.02 at 20h 12m 10s.xml">
+      <configuration name="ButtonActionListenerTest.xDoNTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ButtonActionListenerTest - 2018.04.02 at 20h 12m 18s.xml">
+      <configuration name="ButtonActionListenerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ButtonActionListenerTest_przecinekTest - 2018.04.02 at 20h 14m 50s.xml">
+      <configuration name="ButtonActionListenerTest.przecinekTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ButtonActionListenerTest_przecinekTest - 2018.04.02 at 20h 15m 50s.xml">
+      <configuration name="ButtonActionListenerTest.przecinekTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Kalkulator - 2018.04.02 at 20h 17m 54s.xml">
+      <configuration name="All in Kalkulator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Kalkulator - 2018.04.02 at 20h 21m 14s.xml">
+      <configuration name="All in Kalkulator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FrameKeyListenerTest_addKeyListenerToAllComponentsTest - 2018.04.02 at 20h 31m 56s.xml">
+      <configuration name="FrameKeyListenerTest.addKeyListenerToAllComponentsTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117146000" />
+    <option name="totallyTimeSpent" value="133950000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -501,11 +663,11 @@
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32942432" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Version Control" order="9" weight="0.32889125" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3278867" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3267974" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3291592" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756888" visible="true" weight="0.16897655" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756888" visible="true" weight="0.17750533" />
       <window_info anchor="right" id="Database" order="5" weight="0.32942432" />
       <window_info id="Structure" order="1" sideWeight="0.5024311" side_tool="true" weight="0.16897655" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2489339" />
@@ -518,7 +680,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +717,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -563,129 +725,86 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#527#1112#0" />
-            <element signature="e#1119#2133#0" />
-            <element signature="e#2139#2969#0" />
-            <element signature="e#2975#4712#0" />
-            <element signature="e#4718#5034#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#527#1112#0" />
-            <element signature="e#1119#2133#0" />
-            <element signature="e#2139#2969#0" />
-            <element signature="e#2975#4712#0" />
-            <element signature="e#4718#5034#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#527#1112#0" />
-            <element signature="e#1119#2133#0" />
-            <element signature="e#2139#2969#0" />
-            <element signature="e#2975#4712#0" />
-            <element signature="e#4718#5034#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/Frame/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#527#1112#0" />
-            <element signature="e#1119#2133#0" />
-            <element signature="e#2139#2969#0" />
-            <element signature="e#2975#4712#0" />
-            <element signature="e#4718#5034#0" />
+            <element signature="docComment;class#MyFrame#0" />
+            <element signature="e#520#1165#0" />
+            <element signature="e#1172#2223#0" />
+            <element signature="e#2229#3091#0" />
+            <element signature="e#3097#4925#0" />
+            <element signature="e#4931#5205#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/Frame/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#527#1112#0" />
-            <element signature="e#1119#2133#0" />
-            <element signature="e#2139#2969#0" />
-            <element signature="e#2975#4712#0" />
-            <element signature="e#4718#5034#0" />
+            <element signature="docComment;class#MyFrame#0" />
+            <element signature="e#520#1165#0" />
+            <element signature="e#1172#2223#0" />
+            <element signature="e#2229#3091#0" />
+            <element signature="e#3097#4925#0" />
+            <element signature="e#4931#5205#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/Frame/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#527#1112#0" />
-            <element signature="e#1119#2133#0" />
-            <element signature="e#2139#2969#0" />
-            <element signature="e#2975#4712#0" />
-            <element signature="e#4718#5034#0" />
+            <element signature="docComment;class#MyFrame#0" />
+            <element signature="e#520#1165#0" />
+            <element signature="e#1172#2223#0" />
+            <element signature="e#2229#3091#0" />
+            <element signature="e#3097#4925#0" />
+            <element signature="e#4931#5205#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/Frame/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#527#1112#0" />
-            <element signature="e#1119#2133#0" />
-            <element signature="e#2139#2969#0" />
-            <element signature="e#2975#4712#0" />
-            <element signature="e#4718#5034#0" />
+            <element signature="docComment;class#MyFrame#0" />
+            <element signature="e#520#1165#0" />
+            <element signature="e#1172#2223#0" />
+            <element signature="e#2229#3091#0" />
+            <element signature="e#3097#4925#0" />
+            <element signature="e#4931#5205#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/Frame/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#527#1112#0" />
-            <element signature="e#1119#2133#0" />
-            <element signature="e#2139#2969#0" />
-            <element signature="e#2975#4712#0" />
-            <element signature="e#4718#5034#0" />
+            <element signature="docComment;class#MyFrame#0" />
+            <element signature="e#520#1165#0" />
+            <element signature="e#1172#2223#0" />
+            <element signature="e#2229#3091#0" />
+            <element signature="e#3097#4925#0" />
+            <element signature="e#4931#5205#0" />
           </folding>
         </state>
       </provider>
@@ -727,10 +846,10 @@
     <entry file="file://$PROJECT_DIR$/src/Kalkulator/jkmnk.java" />
     <entry file="file://$PROJECT_DIR$/src/Kalkulator/jhnm.java" />
     <entry file="file://$PROJECT_DIR$/src/Kalkulator/style.css" />
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/Wynik.java">
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/Frame/Wynik.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Wynik#0;class#Wynik#0" />
@@ -738,110 +857,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/Kalkulator.java">
+    <entry file="file://$PROJECT_DIR$/test/Frame/MyFrameTests.java" />
+    <entry file="file://$PROJECT_DIR$/test/Frame/MyFrameTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/Frame/ButtonActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/FrameKeyListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="251" column="41" selection-start-line="251" selection-start-column="41" selection-end-line="251" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addKeyListenerToAllComponents#0;class#FrameKeyListener#0" />
-            <element signature="e#294#495#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#529#730#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#764#965#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#999#1200#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1234#1435#0" expanded="true" />
-            <element signature="e#1434#1435#0" expanded="true" />
-            <element signature="e#1469#1670#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
-            <element signature="e#1704#1905#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-            <element signature="e#1939#2140#0" expanded="true" />
-            <element signature="e#2139#2140#0" expanded="true" />
-            <element signature="e#2174#2375#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-            <element signature="e#2409#2610#0" expanded="true" />
-            <element signature="e#2609#2610#0" expanded="true" />
-            <element signature="e#2644#2845#0" expanded="true" />
-            <element signature="e#2844#2845#0" expanded="true" />
-            <element signature="e#2879#3080#0" expanded="true" />
-            <element signature="e#3079#3080#0" expanded="true" />
-            <element signature="e#3117#3318#0" expanded="true" />
-            <element signature="e#3317#3318#0" expanded="true" />
-            <element signature="e#3352#3553#0" expanded="true" />
-            <element signature="e#3552#3553#0" expanded="true" />
-            <element signature="e#3586#3787#0" expanded="true" />
-            <element signature="e#3786#3787#0" expanded="true" />
-            <element signature="e#3822#4023#0" expanded="true" />
-            <element signature="e#4022#4023#0" expanded="true" />
-            <element signature="e#4058#4259#0" expanded="true" />
-            <element signature="e#4258#4259#0" expanded="true" />
-            <element signature="e#4296#4497#0" expanded="true" />
-            <element signature="e#4496#4497#0" expanded="true" />
-            <element signature="e#4529#4730#0" expanded="true" />
-            <element signature="e#4729#4730#0" expanded="true" />
-            <element signature="e#4766#4967#0" expanded="true" />
-            <element signature="e#4966#4967#0" expanded="true" />
-            <element signature="e#4997#5198#0" expanded="true" />
-            <element signature="e#5197#5198#0" expanded="true" />
-            <element signature="e#5237#5438#0" expanded="true" />
-            <element signature="e#5437#5438#0" expanded="true" />
-            <element signature="e#5474#5675#0" expanded="true" />
-            <element signature="e#5674#5675#0" expanded="true" />
-            <element signature="e#5714#5915#0" expanded="true" />
-            <element signature="e#5914#5915#0" expanded="true" />
-            <element signature="e#5948#6149#0" expanded="true" />
-            <element signature="e#6148#6149#0" expanded="true" />
-            <element signature="e#6186#6387#0" expanded="true" />
-            <element signature="e#6386#6387#0" expanded="true" />
-            <element signature="e#6423#6624#0" expanded="true" />
-            <element signature="e#6623#6624#0" expanded="true" />
-            <element signature="method#button0_9KeyListener#0;class#FrameKeyListener#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/MyFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#527#1112#0" />
-            <element signature="e#1119#2133#0" />
-            <element signature="e#2139#2969#0" />
-            <element signature="e#2975#4712#0" />
-            <element signature="e#4718#5034#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator/ButtonActionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="100" column="27" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+        <state relative-caret-position="255">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="method#ButtonActionListener#0;class#ButtonActionListener#0" />
+            <element signature="method#createButtonActionListener#0;class#ButtonActionListener#0" />
+            <element signature="method#ifEndsWithDzialanie#0;class#ButtonActionListener#0" />
+            <element signature="method#ifEndsWithAllDzialanie#0;class#ButtonActionListener#0" />
+            <element signature="method#ifLastNumber#0;class#ButtonActionListener#0" />
             <element signature="method#buttonAction#0;class#ButtonActionListener#0" />
             <element signature="method#buttonDzialanieAction#0;class#ButtonActionListener#0" />
             <element signature="method#buttonCofnij#0;class#ButtonActionListener#0" />
             <element signature="method#buttonKasuj#0;class#ButtonActionListener#0" />
             <element signature="method#buttonOnawias#0;class#ButtonActionListener#0" />
+            <element signature="method#buttonZnawias#0;class#ButtonActionListener#0" />
             <element signature="method#buttonPierwiastek#0;class#ButtonActionListener#0" />
             <element signature="method#wynik#0;class#ButtonActionListener#0" />
             <element signature="method#xDoN#0;class#ButtonActionListener#0" />
             <element signature="method#przecinek#0;class#ButtonActionListener#0" />
-            <element signature="method#createButtonActionListener#0;class#ButtonActionListener#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/KalkulatorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/Frame/MyFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MyFrame#0" />
+            <element signature="e#520#1165#0" />
+            <element signature="e#1172#2223#0" />
+            <element signature="e#2229#3091#0" />
+            <element signature="e#3097#4925#0" />
+            <element signature="e#4931#5205#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/JMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="1286" column="16" selection-start-line="1286" selection-start-column="16" selection-end-line="1286" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/AbstractButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="359" column="16" selection-start-line="359" selection-start-column="16" selection-end-line="359" selection-end-column="16" />
+          <folding>
+            <element signature="e#12137#12138#0" expanded="true" />
+            <element signature="e#12164#12165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Frame/FrameKeyListenerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kalkulator/Frame/FrameKeyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addKeyListenerToAllComponents#0;class#FrameKeyListener#0" />
+            <element signature="method#button0_9KeyListener#0;class#FrameKeyListener#0" />
+            <element signature="method#buttonDzialanieKeyListener#0;class#FrameKeyListener#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Frame/ButtonActionListenerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="161" column="25" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ifEndsWithTest#0;class#ButtonActionListenerTest#0" />
+            <element signature="method#buttonActionTest#0;class#ButtonActionListenerTest#0" />
+            <element signature="method#buttonDzialanieActionTest#0;class#ButtonActionListenerTest#0" />
+            <element signature="method#buttonCofnijTest#0;class#ButtonActionListenerTest#0" />
+            <element signature="method#buttonKasujTest#0;class#ButtonActionListenerTest#0" />
+            <element signature="method#buttonOnawiasTest#0;class#ButtonActionListenerTest#0" />
+            <element signature="method#buttonZnawiasTest#0;class#ButtonActionListenerTest#0" />
+            <element signature="method#ifEndsWithDzialanieTest#0;class#ButtonActionListenerTest#0" />
+            <element signature="method#ifLastNumberTest#0;class#ButtonActionListenerTest#0" />
+            <element signature="method#buttonPierwiastekTest#0;class#ButtonActionListenerTest#0" />
+            <element signature="method#wynikTest#0;class#ButtonActionListenerTest#0" />
+            <element signature="method#xDoNTest#0;class#ButtonActionListenerTest#0" />
+            <element signature="method#przecinekTest#0;class#ButtonActionListenerTest#0" />
           </folding>
         </state>
       </provider>
