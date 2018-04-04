@@ -18,6 +18,7 @@ public class MyFrame extends JFrame {
 
 
 
+
    public MyFrame() {
 
         setTitle("Kalkulator v1.1.0");

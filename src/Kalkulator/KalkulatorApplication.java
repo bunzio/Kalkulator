@@ -15,7 +15,6 @@ public class KalkulatorApplication {
         FrameKeyListener frameKeyListener = new FrameKeyListener(okno, buttonActionListener);
         frameKeyListener.addKeyListenerToAllComponents();
 
-
     }
 
 

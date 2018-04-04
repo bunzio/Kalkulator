@@ -171,4 +171,5 @@ class ButtonActionListenerTest {
         assertEquals(expect, myFrame.oknoWynik.getText());
 
     }
+
 }

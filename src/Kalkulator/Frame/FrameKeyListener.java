@@ -12,7 +12,8 @@ public class FrameKeyListener {
     private MyFrame MyFrame;
     private ButtonActionListener ButtonActionListener;
 
-    public FrameKeyListener(MyFrame MyFrame, ButtonActionListener ButtonActionListener ) {
+
+    public FrameKeyListener(MyFrame MyFrame, ButtonActionListener ButtonActionListener) {
         this.MyFrame = MyFrame;
         this.ButtonActionListener = ButtonActionListener;
 

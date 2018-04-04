@@ -9,5 +9,6 @@ public class Wynik {
         ScriptEngine scriptEngine = sem.getEngineByName("JavaScript");
         String x = dane;
         return scriptEngine.eval(x).toString();
+        
     }
 }
