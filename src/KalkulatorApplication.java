@@ -1,6 +1,6 @@
-import Frame.ButtonActionListener;
-import Frame.FrameKeyListener;
-import Frame.MyFrame;
+import Kalkulator.Frame.ButtonActionListener;
+import Kalkulator.Frame.FrameKeyListener;
+import Kalkulator.Frame.MyFrame;
 
 /**
  * Created by Bunzio on 20.03.2018

@@ -1,4 +1,4 @@
-package Frame;
+package Kalkulator.Frame;
 
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptEngine;

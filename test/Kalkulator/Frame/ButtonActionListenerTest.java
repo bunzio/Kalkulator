@@ -1,4 +1,4 @@
-package Frame;
+package Kalkulator.Frame;
 
 import org.junit.jupiter.api.Test;
 

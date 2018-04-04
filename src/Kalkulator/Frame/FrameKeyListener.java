@@ -1,5 +1,4 @@
-package Frame;
-
+package Kalkulator.Frame;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
