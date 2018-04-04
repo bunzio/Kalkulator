@@ -20,10 +20,10 @@ public class MyFrame extends JFrame {
 
    public MyFrame() {
 
-        setTitle("KalkulatorApplication v1.1.0");
+        setTitle("Kalkulator v1.1.0");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
-        setSize(310, 250);
+        setSize(310, 270);
         int width = Toolkit.getDefaultToolkit().getScreenSize().width;
         int height = Toolkit.getDefaultToolkit().getScreenSize().height;
         int fwidth = getSize().width;
